@@ -17,6 +17,6 @@ HeadInfo.defaultProps = {
   title: 'My Blog',
   keyword: 'Blog made Next.js',
   contents: 'Basic Next.js'
-}
+};
 
 export default HeadInfo;

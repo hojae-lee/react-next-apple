@@ -9,6 +9,6 @@ const photos = () => {
       <h1>My Photos</h1>
     </div>
   )
-}
+};
 
 export default photos;
