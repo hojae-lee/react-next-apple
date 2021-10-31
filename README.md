@@ -42,3 +42,5 @@ npm start
 #or
 yarn start
 ```
+
+`JSONPlaceholder`: 가상 데이터를 만들어 api 테스트를 할 수 있는 곳. (무료.)
