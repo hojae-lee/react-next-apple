@@ -2,11 +2,14 @@
 // Link 태그를 사용할 때 아래와 같이 <Link> <a></a> </Link> 형식으로 사용함.
 // 그냥 일반 텍스트만 넘기면 Next.js 에서 자동으로 a 태그를 감싸서 사용한다.
 import Link from "next/link";
+// css 불러와서 사용하기
+import navStyles from '../styles/Nav.module.css';
 
+// 네비바 만들기
 const Nav = () => {
  return (
    <>
-    <nav>
+    <nav className={ navStyles.nav }>
       <ul>
         <li>
           <Link href="/">

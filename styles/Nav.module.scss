@@ -1,0 +1,18 @@
+$white: #fff;
+$blue: #2c82c9;
+
+@mixin display($mode) {
+  display: $mode
+}
+
+.nav {
+  padding: 0.5rem 1rem;
+  background: $blue;
+  ul {
+    @include display(flex);
+  }
+  li {
+    margin-right: 1rem;
+    color: $white;
+  }
+}
