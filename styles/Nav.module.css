@@ -1,0 +1,5 @@
+.nav { padding: 0.5rem 1rem; background: #2c82c9; }
+
+.nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.nav li { margin-right: 1rem; color: #fff; }

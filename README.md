@@ -21,3 +21,24 @@ yarn dev
 ```bash
 npx create next-app <프로젝트명>
 ```
+
+### build
+
+react 소스를 js 소스로 변환. <br/>
+build 완료시 .next 폴더가 생성됨. <br/>
+용량이 커서 성능이 떨어질 수 있고, 보안 쪽 문제가 발생할 수도 있음. 어플리케이션을 동작하기전 build 해서 하기. <br/>
+`.next/server/pages/index.html` 에 들어가서 확인 가능함.
+
+```bash
+npm run build
+#or
+yarn build
+```
+
+`Next.js production mode` 시작.
+
+```bash
+npm start
+#or
+yarn start
+```
