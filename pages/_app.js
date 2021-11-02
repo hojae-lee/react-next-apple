@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import Layout from '../components/Layout';
-import HeadInfo from "../components/Headinfo";
+import HeadInfo from '../components/Headinfo';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
