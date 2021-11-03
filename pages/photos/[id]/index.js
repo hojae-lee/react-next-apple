@@ -1,3 +1,4 @@
+// id 기반의 동적 페이지를 만들 수 있다.
 import Image from 'next/image';
 import Link from 'next/link';
 // import { useRouter } from 'next/router';
