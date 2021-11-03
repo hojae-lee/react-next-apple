@@ -1,0 +1,16 @@
+@mixin display($mode) {
+  display: $mode;
+  @if ($mode == grid) {
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 1rem;
+  } @else if ($mode == flex) {
+    flex-direction: column;
+  }
+}
+
+.photos {
+  @include display(grid);
+  li {
+    @include display(flex);
+  }
+}

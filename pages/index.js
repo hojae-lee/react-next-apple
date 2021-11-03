@@ -37,8 +37,9 @@ const Home = ({ posts }) => {
 
 // 빌드시 고정되는 값으로 빌드 이 후에는 변경이 불가능
 // Next.js 에서는 getStaticProps 를 좀 더 추천한다고 함.
+// 빌드를 할 때 마다 페이지가 새롭게 갱신이 됨.
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:8080/api/posts`)
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_start=0&_end=10`)
   const posts = await res.json();
   
   return {
