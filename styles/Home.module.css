@@ -1,3 +1,8 @@
+/* 
+  CSS Module 을 사용하면, CSS 클래스가 중첩되는 것을 방지할 수 있습니다.
+  import home from 'Home.module.css';
+  className={ home.container }
+*/
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
