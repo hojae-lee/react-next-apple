@@ -5,6 +5,8 @@
 
 ### server
 
+개발 모드
+
 ```bash
 npm run dev
 # or
@@ -29,6 +31,8 @@ build 완료시 .next 폴더가 생성됨. <br/>
 용량이 커서 성능이 떨어질 수 있고, 보안 쪽 문제가 발생할 수도 있음. 어플리케이션을 동작하기전 build 해서 하기. <br/>
 `.next/server/pages/index.html` 에 들어가서 확인 가능함.
 
+개발한 내용을 빌드 시켜 `production` 을 할 준비
+
 ```bash
 npm run build
 #or
@@ -41,6 +45,14 @@ yarn build
 npm start
 #or
 yarn start
+```
+
+코드 정리
+
+```bash
+npm lint
+#or
+yarn lint
 ```
 
 `JSONPlaceholder`: 가상 데이터를 만들어 api 테스트를 할 수 있는 곳. (무료.)
