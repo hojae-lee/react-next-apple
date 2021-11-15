@@ -19,7 +19,7 @@ yarn dev
 ### setup
 
 ```bash
-npx create next-app <프로젝트명>
+npx create-next-app <프로젝트명>
 ```
 
 ### build
